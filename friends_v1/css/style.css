@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Comic Neue', cursive;
+    background-color: #9c8cd4;
 }
 
 a:visited {
@@ -13,25 +14,26 @@ a:visited {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #EAC435;
+    background-color: #eac435;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
+    width: 8%;
     margin: 1%;
+    margin-left: 4%;
 }
 
 .logo img {
-    width: 80%;
+    width: 100%;
 }
 
 .menu {
     display: flex;
-    padding-right: 3%;
-    width: 85%;
+    padding-right: 4%;
+    width: 50%;
 }
 
 .menu nav {
@@ -45,9 +47,56 @@ a:visited {
     justify-content: space-evenly;
     list-style: none;
     font-weight: 700;
-    font-size: x-large;
+    font-size: larger;
 }
 
 .menu nav ul a {
     text-decoration: none;
+}
+
+.container.main {
+    display: grid;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 15%;
+    text-align: center;
+}
+
+.quiz {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #80ded9;
+    border-radius: 15px;
+    margin: 5%;
+    padding: 5%;
+}
+
+.quiz h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 250%;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5%;
+}
+
+.quiz .question {
+    padding: 2%;
+}
+
+.quiz .question img {
+    width: 80%;
+    border: 10px solid #f4f4f4;
+}
+
+.summary {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #d64045;
+    border-radius: 15px;
+    margin: 5%;
+}
+
+.facts {
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
