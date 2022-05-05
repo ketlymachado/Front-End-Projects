@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.container.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #EAC435;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    margin: 1%;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.menu {
+    display: flex;
+    padding-right: 3%;
+    width: 85%;
+}
+
+.menu nav {
+    display: flex;
+    width: 100%;
+}
+
+.menu nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.menu nav ul a {
+    text-decoration: none;
+}
